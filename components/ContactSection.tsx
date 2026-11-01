@@ -128,6 +128,24 @@ export default function ContactSection() {
             </div>
 
             <div className="flex items-start gap-4 text-sm pt-4 border-t border-slate-100">
+              <div className="w-10 h-10 shrink-0 rounded-lg bg-[#0A66C2] flex items-center justify-center text-white font-bold text-sm">
+                in
+              </div>
+              <div>
+                <p className="text-5xs font-bold text-slate-500 uppercase tracking-widest">LinkedIn Profile</p>
+                <a
+                  href="https://www.linkedin.com/in/dody-fernanda-542202160/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-slate-800 hover:text-emerald-700 transition-colors font-semibold block"
+                >
+                  linkedin.com/in/dody-fernanda-542202160/
+                </a>
+                <p className="text-4xs text-slate-400 mt-0.5">Koneksi & profil profesional</p>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-4 text-sm pt-4 border-t border-slate-100">
               <div className="w-10 h-10 shrink-0 rounded-full bg-emerald-700 flex items-center justify-center text-white">
                 <FileText size={16} />
               </div>
@@ -232,7 +250,7 @@ export default function ContactSection() {
             </div>
             <div className="text-left">
               <p className="text-xs font-bold text-slate-800">LinkedIn</p>
-              <p className="text-4xs text-slate-500">/in/dody-fernanda</p>
+              <p className="text-4xs text-slate-500">/in/dody-fernanda-542202160</p>
             </div>
           </a>
 
